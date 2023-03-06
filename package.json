@@ -1,0 +1,25 @@
+{
+  "name": "learn",
+  "start": "node index.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.7",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.1.0",
+    "mongoose": "^6.10.0",
+    "nodemon": "^2.0.20",
+    "validator": "^13.9.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "commit": "git-cz"
+  },
+  "devDependencies": {}
+}
